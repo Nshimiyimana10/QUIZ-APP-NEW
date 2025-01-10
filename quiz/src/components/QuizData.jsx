@@ -85,7 +85,7 @@ function QuizData() {
     );
 
   return (
-    <div className="container h-screen items flex flex-col">
+    <div className="container h-screen flex flex-col ml-32 ">
       <div className="flex justify-center items-center gap-3 mt-5">
         <img src={reactLogo} className="w-32" alt="React logo" />
         <h1 className="text-4xl text-orange-500 font-bold">React job questions</h1>
