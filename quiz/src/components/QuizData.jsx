@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import reactLogo from "../assets/react.svg";
 
+//function which manipulate fetched data from an API
 function QuizData() {
   const [currentGame, setCurrentGame] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -83,7 +84,7 @@ function QuizData() {
         </div>
       </div>
     );
-
+//Styled UI of my application
   return (
     <div className="container h-screen flex flex-col ml-32 ">
       <div className="flex justify-center items-center gap-3 mt-5">
